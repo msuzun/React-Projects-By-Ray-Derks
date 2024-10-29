@@ -1,0 +1,35 @@
+/* Home.css */
+
+.Home-container {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.Home-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.Profile-link-button,
+.Projects-link-button {
+    padding: 10px 20px;
+    margin: 20px 10px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007acc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Profile-link-button:hover,
+.Projects-link-button:hover {
+    background-color: #005fa3;
+}
+
+.Profile-page-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
